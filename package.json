@@ -4,7 +4,8 @@
     "fingerprintjs2": "^1.6.1",
     "http": "0.0.0",
     "object-hash": "^1.2.0",
-    "sqlite3": "^3.1.13",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "sqlite3": "^4.0.2",
     "underscore": "^1.8.3"
   }
 }
