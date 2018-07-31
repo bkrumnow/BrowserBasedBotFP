@@ -26,8 +26,8 @@ function toJSON(node) {
     }
     var attrs = node.attributes;
     if (attrs) {
-        let length = attrs.length;
-        let arr = JSONObject.attributes = new Array(length);
+        var length = attrs.length;
+        var arr = JSONObject.attributes = new Array(length);
         for (var i = 0; i < length; i++) {
             attr = attrs[i];
             arr[i] = [attr.nodeName, attr.nodeValue];
